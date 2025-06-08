@@ -1,0 +1,41 @@
+.logo-navbar {
+            width: 100px; /* Defina a largura que desejar */
+            height: auto; /* A altura se ajustará automaticamente */
+            margin-right: 10px; /* Adiciona um espaço à direita da imagem */
+        }
+.navbar-nav .nav-link,
+        .navbar-nav .nav-link.active,
+        .navbar-nav .nav-link.disabled {
+            font-family: Arial, sans-serif;
+            /* Fonte minimalista e padrão */
+            color: #c5c5c5 !important;
+            /* Cor cinza escuro */
+            font-weight: bold;                /* Texto em negrito */
+        }
+
+        /* Mantém a cor do link ao passar o mouse */
+        .navbar-nav .nav-link:hover {
+            color: #A9A9A9 !important;
+        }
+/* Altera a cor do botão primário no rodapé */
+footer .btn-primary {
+    background-color: #c5c5c5;  /* Mesma cor cinza da navbar */
+    border-color: #c5c5c5;      /* Cor da borda para combinar */
+}
+
+/* Altera a cor do botão no rodapé ao passar o mouse (hover) ou focar */
+footer .btn-primary:hover,
+footer .btn-primary:focus {
+    background-color: #A9A9A9;  /* Cor de hover da navbar para consistência */
+    border-color: #A9A9A9;
+}
+
+/* Estiliza os links de navegação do rodapé */
+footer .nav-link {
+    color: #c5c5c5 !important;
+}
+
+/* Efeito hover para os links de navegação do rodapé */
+footer .nav-link:hover {
+    color: #A9A9A9 !important;
+}
